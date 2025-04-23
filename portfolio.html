@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Makeover by Kanchan</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- (your existing header here) -->
+    <header class="header">
+      <div class="container">
+        <div class="logo-wrapper">
+          <img
+            src="images/logo.png"
+            alt="Makeover by Kanchan Logo"
+            class="logo-img"
+          />
+        </div>
+        <div class="menu-btn" id="menu-toggle">
+          <span></span><span></span><span></span>
+        </div>
+        <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#reviews">Reviews</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="portfolio-section">
+      <div class="container">
+        <div class="portfolio-header">
+          <h2 class="section-subtitle">Portfolio</h2>
+          <h1 class="section-title">My Work Gallery</h1>
+          <p class="section-description">
+            Browse a selection of bridal and fashion makeovers. Click any image
+            to view larger.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- 12 thumbnails -->
+          
+          <div class="portfolio-item">
+            <img src="images/portfolio1.jpg" alt="Portfolio 1" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio2.jpg" alt="Portfolio 2" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio3.jpg" alt="Portfolio 3" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio4.jpg" alt="Portfolio 4" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio5.jpg" alt="Portfolio 5" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio6.jpg" alt="Portfolio 6" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio7.jpg" alt="Portfolio 7" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio8.jpg" alt="Portfolio 8" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio9.jpg" alt="Portfolio 9" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio10.jpg" alt="Portfolio 10" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio11.jpg" alt="Portfolio 11" />
+          </div>
+          <div class="portfolio-item">
+            <img src="images/portfolio12.jpg" alt="Portfolio 12" />
+          </div>
+        </div>
+      
+    </main>
+
+    <!-- Modal Slider -->
+    <div id="portfolio-modal" class="portfolio-modal">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <div class="modal-content">
+        <span id="modal-prev" class="modal-nav">&#10094;</span>
+        <img id="modal-img" src="" alt="Expanded portfolio image" />
+        <span id="modal-next" class="modal-nav">&#10095;</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-overlay">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Kanchan's Logo" />
+          </div>
+          <div class="footer-content">
+            <h3>Makeover by Kanchan</h3>
+            <p>
+              Transforming beauty with elegance across Rajasthan. Bridal, fashion
+              & occasion-ready looks tailored to you.
+            </p>
+            <ul class="footer-links">
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+            <div class="footer-socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-copy">
+              &copy; 2025 Makeover by Kanchan. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Back to Top Button -->
+<button id="backToTop" title="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+      <script src="script.js"></script>
+  </body>
+</html>
