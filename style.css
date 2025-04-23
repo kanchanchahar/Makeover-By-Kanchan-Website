@@ -1888,6 +1888,15 @@ body {
       width: 100%;
     }
   }
+
+  #about .team-member img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6%;
+    margin-bottom: 1rem;
+  }
+ 
   
 
 /*services page  */
