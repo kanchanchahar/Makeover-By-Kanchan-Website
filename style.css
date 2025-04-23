@@ -1812,9 +1812,9 @@ body {
   }
   #about .team-member img {
     width: 100%;
-    height: 180px;
+    height: 400px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 6%;
     margin-bottom: 1rem;
   }
   
